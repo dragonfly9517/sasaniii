@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>Sansaniii</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<noscript>
+<link rel="stylesheet" href="css/main/5grid/core.css" />
+<link rel="stylesheet" href="css/main/5grid/core-desktop.css" />
+<link rel="stylesheet" href="css/main/5grid/core-1200px.css" />
+<link rel="stylesheet" href="css/main/5grid/core-noscript.css" />
+<link rel="stylesheet" href="css/main/style.css" />
+<link rel="stylesheet" href="css/main/style-desktop.css" />
+</noscript>
+<style>#but{
+    background:#428bca;
+    height: 90px;
+    width: 150px;
+    text-indent: -9999px;
+    overflow: hidden;
+    color:white;
+  }</style>
+<script src="css/main/5grid/jquery.js"></script>
+<script src="css/main/5grid/init.js?use=mobile,desktop,1000px&amp;mobileUI=1&amp;mobileUI.theme=none"></script>
+<!--[if IE 9]><link rel="stylesheet" href="css/style-ie9.css" /><![endif]-->
+</head>
+<body class="homepage">
+<div id="header-wrapper">
+	<header id="header">
+		
+		<div class="5grid-layout">
+			<div class="row">
+				<div class="12u" id="menu">
+					<nav class="mobileUI-site-nav">
+						<ul>
+							<li class="current_page_item"><a href="/">Homepage</a></li>
+							<li><a href="#">AboutUs</a></li>
+							<li><a href="#">ContactUs</a></li>	
+						{% if flag==0 %}
+							<li><a href="{{login}}">Login</a></li>
+						{% else %}
+							<li><a href="{{logout}}">Logout</a></li>
+						{% endif %}
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+</div>
+<h3 style="font-size:40px;"> The first app of its kind that brings the common man , the law enforcements and the NGO's on the same platform.</h3>
+<br/>
+<h3 style="font-size:30px;"> Features :</h3>
+<ol>
+<li style="font-size:20px;"> COMMON MAN / VIEWER : </li>
+<br/>
+<ul >
+<li style="font-size:20px;"> Report any crime you are aware of ( give location ).
+</li>
+
+<li style="font-size:20px;">Get instant access to nearby police departments and related NGO's.
+</li>
+
+<li style="font-size:20px;"> Keep a close eye on your neighbour hood.
+</li>
+
+<li style="font-size:20px;"> You can view the crime  complaints and their crime locations on the map.</li>
+
+<li style="font-size:20px;"> You can aid your fellow people by signing petitions for their complaints.
+</li>
+
+<li style="font-size:20px;"> You can monitor the working of police department and the NGO's.
+</li>
+
+<li style="font-size:20px;"> You can like , unlike and comment too.
+</li>
+</ul>
+<br/><br/>
+<li style="font-size:30px;">POLICE DEPARTMENT : </li>
+<br/>
+<ul>
+<li style="font-size:20px;">View crimes and the number of petitions. Also, they can see the number of crimes which happened in a paticular area.
+</li>
+</ul>
+
+<br/><br/>
+<li style="font-size:30px;"> NGO's :
+</li>
+<br/><ul>
+<li style="font-size:20px;">
+ They can find out instantly where help is needed. Even , they can monitor the working of police department too.
+</li>
+</ul>
+
+</ol> 
+<body>
+<html>	 

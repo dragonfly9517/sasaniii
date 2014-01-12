@@ -1,0 +1,87 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<noscript>
+<link rel="stylesheet" href="css/main/5grid/core.css" />
+<link rel="stylesheet" href="css/main/5grid/core-desktop.css" />
+<link rel="stylesheet" href="css/main/5grid/core-1200px.css" />
+<link rel="stylesheet" href="css/main/5grid/core-noscript.css" />
+<link rel="stylesheet" href="css/main/style.css" />
+<link rel="stylesheet" href="css/main/style-desktop.css" />
+</noscript>
+<style>#but{
+    background:#428bca;
+    height: 90px;
+    width: 150px;
+    text-indent: -9999px;
+    overflow: hidden;
+    color:white;
+  }</style>
+<script src="css/main/5grid/jquery.js"></script>
+<script src="css/main/5grid/init.js?use=mobile,desktop,1000px&amp;mobileUI=1&amp;mobileUI.theme=none"></script>
+</head>
+<body class="homepage">
+<div id="header-wrapper">
+	<header id="header">
+		
+		<div class="5grid-layout">
+			<div class="row">
+				<div class="12u" id="menu">
+					<nav class="mobileUI-site-nav">
+						<ul>
+							<li class="current_page_item"><a href="/">Homepage</a></li>
+							<li><a href="#">AboutUs</a></li>
+							<li><a href="#">ContactUs</a></li>	
+						{% if flag==0 %}
+							<li><a href="{{login}}">Login</a></li>
+						{% else %}
+							<li><a href="{{logout}}">Logout</a></li>
+						{% endif %}
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+</div>
+<br/>
+<h3 style="font-size:40px;"> CONTACT US :</h3>
+<br/><br/>
+<ol>
+<li style="font-size:30px;">&nbsp;VIVEK</li>
+<ul>
+<li>
+vivek.jain@students.iiit.ac.in
+</li>
+
+</ul>
+<br/>
+<li style="font-size:30px;">&nbsp;MADAN GOPAL</li>
+<ul>
+<li>madangopal.jhanwar@students.iiit.ac.in
+</li>
+
+</ul>
+<br/>
+<li style="font-size:30px;">&nbsp;VANYA JAUHAL</li>
+<ul>
+<li>
+vanya.jauhal@students.iiit.ac.in
+</li>
+<li>08886493001
+</li>
+</ul>
+<br/>
+<li style="font-size:30px;">&nbsp;SAUMYA GURTU</li>
+<ul>
+<li>saumya.gurtu@students.iiit.ac.in
+</li>
+<li> 08790533025
+</li>
+</ul>
+<br/>
+</ol>
+</body>
+</html>

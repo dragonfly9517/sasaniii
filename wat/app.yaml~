@@ -1,0 +1,27 @@
+application: fest2k13
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /css
+  static_dir: css
+- url: /js
+  static_dir: js
+- url: /images
+  static_dir: images
+- url: /.* 
+  script: blood.application
+
+
+libraries:
+- name: webapp2
+  version: latest
+- name: jinja2
+  version: latest
+- name: markupsafe
+  version: latest
+
+builtins:
+- remote_api: on
